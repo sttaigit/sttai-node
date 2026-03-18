@@ -1,0 +1,45 @@
+{
+  "name": "sttai",
+  "version": "0.1.0",
+  "description": "Official Node.js SDK for STT.ai — Speech-to-Text API",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stt",
+    "speech-to-text",
+    "transcription",
+    "whisper",
+    "audio",
+    "diarization",
+    "subtitles",
+    "api"
+  ],
+  "author": "STT.ai <hello@stt.ai>",
+  "license": "MIT",
+  "homepage": "https://stt.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sttaigit/sttai-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sttaigit/sttai-node/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "ws": "^8.16.0"
+  },
+  "optionalDependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
