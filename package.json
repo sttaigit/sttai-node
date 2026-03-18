@@ -1,5 +1,5 @@
 {
-  "name": "sttai",
+  "name": "@sttainpm/sttai",
   "version": "0.1.0",
   "description": "Official Node.js SDK for STT.ai — Speech-to-Text API",
   "main": "src/index.js",
